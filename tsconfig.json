@@ -9,6 +9,7 @@
     "resolveJsonModule": true,
     "strict": true,
     "allowJs": true,
-    "noImplicitAny": false
+    "noImplicitAny": true,
+    "typeRoots": ["./@types", "./node_modules/@types"]
   }
 }
